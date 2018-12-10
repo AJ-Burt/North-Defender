@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e553358f866d86045836707c28b352fd, type: 3}
+  m_Name: ZRush
+  m_EditorClassIdentifier: 
+  enemyPrefab:
+  - {fileID: 1502641106624710, guid: 507778d97399f454292e9c0505c683be, type: 2}
+  - {fileID: 1502641106624710, guid: 9281a5005f53810418811b09d7e7ca8f, type: 2}
+  - {fileID: 1502641106624710, guid: 9e93cf7aa08a094459cb4b3eb75451ac, type: 2}
+  startingPoints:
+  - {fileID: 1655851544393984, guid: 504a93883dbe771498b492ee0564d662, type: 2}
+  - {fileID: 1432249337699398, guid: 579c9fd115120f144b1fd6c352d73b60, type: 2}
+  - {fileID: 1200398509785668, guid: 0ad4a4b03b1f36649b54f8604354c26d, type: 2}
+  - {fileID: 1185847637277626, guid: a81442c42afc81348b7984561b77736a, type: 2}
+  - {fileID: 1017590750602290, guid: 076c7c96ce4525b47be748a15c46c2c5, type: 2}
+  - {fileID: 1576303957562880, guid: fd7a498270059e3459fb1f4b11bbcdbc, type: 2}
+  - {fileID: 1193245192944984, guid: 40019217e500e6e45837569b7cfb540a, type: 2}
+  - {fileID: 1750434170257234, guid: ba551695dcd1e444185ad5d261d85386, type: 2}
+  - {fileID: 1903517229652370, guid: 30fb65fc68f4f1d4c952fa4beb00e1e8, type: 2}
+  - {fileID: 1205268426976298, guid: 3747e84234ad1da4fb5bf9b2244b4370, type: 2}
+  - {fileID: 1755350660901388, guid: 1568025355e58754fac15ec859448999, type: 2}
+  - {fileID: 1333560439115232, guid: aa5f4ad125ef11741b9ead95ffe00699, type: 2}
+  - {fileID: 1889663425473330, guid: 348f02152ae087b48a66f499fcffb232, type: 2}
+  - {fileID: 1190236738827990, guid: 2ef0c56c6c3b9164f8ae67d17524eb02, type: 2}
+  - {fileID: 1657307053973868, guid: 6844161602d5f7541a4dc6f9a75852fe, type: 2}
+  - {fileID: 1303190241956424, guid: 748b3368c38d64541a470fb560513f34, type: 2}
+  - {fileID: 1679009009591132, guid: bcd0bdfe28092b0488ce9653cc08e0bf, type: 2}
+  - {fileID: 1910792814832568, guid: 2363c99aa03b14f45934c57be5202fef, type: 2}
+  - {fileID: 1591120862165664, guid: a6a6691353f3f3d488de56d50a5e28dd, type: 2}
+  timeBetweenSpawns: 0.5
+  numberOfEnemies: 10
+  moveSpeed: 0.3
